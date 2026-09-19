@@ -1,13 +1,11 @@
 package kekishev.semestr.first.seminars.first;
 
 import org.jspecify.annotations.NonNull;
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Task1 implements CommandLineRunner {
-    @Override
-    public void run(String @NonNull [] args) {
+public class Task1 {
+    public void run(String @NonNull [] args) throws Exception {
         subtask1();
         subtask2();
     }
